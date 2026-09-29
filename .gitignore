@@ -1,0 +1,41 @@
+
+# Carpetas temporales generadas por Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Archivos y carpetas de IDE
+.vs/
+.idea/
+.vscode/
+
+# Archivos temporales de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Archivos temporales de Visual Studio y compilacion
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Archivos de respaldo
+*.tmp
+*.bak
+*.old
