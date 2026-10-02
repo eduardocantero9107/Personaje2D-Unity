@@ -130,6 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 517270b4922204291b5c49b61a95edaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletScript
+  Sound: {fileID: 8300000, guid: 2cec9607f3b1d40629dfdb73d0d9564a, type: 3}
   Speed: 2
 --- !u!50 &7672796758070820078
 Rigidbody2D:
@@ -188,7 +189,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

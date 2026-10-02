@@ -13,6 +13,7 @@ public class JohnMovement : MonoBehaviour
     private float Horizontal;
     private bool Grounded;
     private float LastShoot;
+    private int Health = 5;
    
     private void Start()
     {
@@ -67,6 +68,12 @@ public class JohnMovement : MonoBehaviour
 
         GameObject bullet = Instantiate(BulletPrefab, transform.position + direction * 0.1f, Quaternion.identity);
         bullet.GetComponent<BulletScript>().SetDirection(direction);
+    }
+
+    public void Hit()
+    {
+        Health = Health - 1;
+        if (Health == 0) Destroy(gameObject);
     }
 
 }
